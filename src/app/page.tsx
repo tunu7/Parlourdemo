@@ -1,4 +1,3 @@
-// app/page.js
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50">
@@ -67,14 +66,18 @@ export default function Home() {
         <h2 className="text-3xl font-semibold text-blue-700">What Our Clients Say</h2>
         <div className="mt-6 container mx-auto px-6 grid md:grid-cols-2 gap-6">
           <div className="p-6 bg-white shadow-md rounded-lg">
+            {/* Disabled eslint rule for this section */}
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
             <p className="italic text-gray-600">
-              "Absolutely amazing service! The staff is so friendly and professional. I felt pampered and beautiful."
+              Absolutely amazing service! The staff is so friendly and professional. I felt pampered and beautiful.
             </p>
             <h4 className="mt-4 font-semibold text-gray-800">- Sarah J.</h4>
           </div>
           <div className="p-6 bg-white shadow-md rounded-lg">
+            {/* Disabled eslint rule for this section */}
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
             <p className="italic text-gray-600">
-              "Best beauty salon in town! I loved my bridal makeup and hairdo. Highly recommended!"
+              Best beauty salon in town! I loved my bridal makeup and hairdo. Highly recommended!
             </p>
             <h4 className="mt-4 font-semibold text-gray-800">- Emily R.</h4>
           </div>
